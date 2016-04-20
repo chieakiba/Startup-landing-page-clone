@@ -98,29 +98,28 @@ button:hover {
 }
 
 /*Content*/
-.content {
-	padding-bottom: 5rem;
-}
-
-.content h1,
-.content h3 {
+.cases h2 {
 	font-family: "Roboto", sans-serif;
 	font-weight: 300;
-}
-
-.content h1 {
 	text-align: center;
 }
 
-.devices {
+.captions h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	margin-left: -1em;
+}
+
+.cases h2, {
+	font-weight: 300;
+	margin: 0 auto;
+	font-size: 2em;
+}
+
+.cases .devices li {
 	list-style: none;
-	text-align: center;
-
-}
-
-.devices li,
-.devices h3 {
+	width: 33%;
 	float: left;
-	width: 33.33333333%;
-	display: inline-block;
 }
+
