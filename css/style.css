@@ -64,7 +64,7 @@ html {
 }
 
 .introduction h1 {
-	padding-top: 6em;
+	padding-top: 8em;
 }
 
 .introduction {
@@ -98,28 +98,59 @@ button:hover {
 }
 
 /*Content*/
+.cases {
+	width: 87em;
+	height: 27em;
+	padding-bottom: 5em;
+}
+
 .cases h2 {
 	font-family: "Roboto", sans-serif;
 	font-weight: 300;
 	text-align: center;
+	margin: 0 auto;
+	font-size: 2em;
+	padding-top: 5em;
 }
 
 .captions h3 {
 	font-family: "Roboto", sans-serif;
-	font-weight: 400;
-	font-size: 2rem;
+	font-weight: 200;
+	font-size: 1em;
 	margin-left: -1em;
-}
-
-.cases h2, {
-	font-weight: 300;
-	margin: 0 auto;
-	font-size: 2em;
 }
 
 .cases .devices li {
 	list-style: none;
 	width: 33%;
 	float: left;
+	padding-left: 3em;
+	padding-bottom: 5em;
+	border-bottom: solid .5px;
+	margin-bottom: 10em;
 }
 
+/*Footer*/
+.social {
+	width: 66%;
+	padding-bottom: 10em;
+	text-align: center;
+}
+
+.social h3,
+.social p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.social p {
+	color: gray;
+}
+
+
+.icons li {
+	list-style: none;
+	display: inline-block;
+	padding: .5rem;
+}
