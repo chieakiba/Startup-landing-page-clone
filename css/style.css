@@ -115,6 +115,8 @@ button:hover {
 	background-color: #fff;
 	overflow: hidden;
 	padding-bottom: 5rem;
+	width: 60%;
+	margin: auto;
 }
 
 .cases .content {
